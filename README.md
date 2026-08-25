@@ -142,6 +142,14 @@ deploy this Compose service or use it as a production runtime. A production
 deployment must run `npm run build` and serve the generated `dist/` assets with
 a production web server.
 
+## Hostinger Alpha Hosting
+
+The first Latte alpha deploys the static Vite build to Hostinger at
+`https://latte.erme2.com`, with Pane at `https://pane.erme2.com`. See
+[Hostinger hosting for the Latte alpha](docs/hostinger-hosting.md) for the
+target directory, public runtime configuration, SPA fallback, cache behavior,
+and smoke checks.
+
 ## Repository transition
 
 This repository continues the complete history of the original `erme2/Burro`
